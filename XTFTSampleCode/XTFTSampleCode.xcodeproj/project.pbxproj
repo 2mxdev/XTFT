@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E107C3CA158B3101000D4534 /* XTFTSelectValueCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3C9158B3101000D4534 /* XTFTSelectValueCell.m */; };
+		E107C3CE158B32EC000D4534 /* XTFTSelectDateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3CD158B32EC000D4534 /* XTFTSelectDateCell.m */; };
+		E107C3D2158B4EFE000D4534 /* SampleController.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3D1158B4EFE000D4534 /* SampleController.m */; };
+		E107C3D5158B5119000D4534 /* SampleFieldTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3D4158B5119000D4534 /* SampleFieldTypes.m */; };
+		E107C3D8158B5836000D4534 /* SampleSteps.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3D7158B5836000D4534 /* SampleSteps.m */; };
+		E107C3DB158B635D000D4534 /* SampleRegForm.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3DA158B635D000D4534 /* SampleRegForm.m */; };
+		E107C3DE158B692D000D4534 /* SampleValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3DD158B692D000D4534 /* SampleValidation.m */; };
+		E107C3E1158B6BF0000D4534 /* SampleCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3E0158B6BF0000D4534 /* SampleCommit.m */; };
+		E107C3E4158B70C5000D4534 /* SampleCancelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3E3158B70C5000D4534 /* SampleCancelButton.m */; };
+		E107C3E7158B72D7000D4534 /* SampleReference.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3E6158B72D7000D4534 /* SampleReference.m */; };
+		E107C3EA158B8A6C000D4534 /* SampleAsyncValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = E107C3E9158B8A6C000D4534 /* SampleAsyncValidation.m */; };
+		E1151B2E158B165B00948A7D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1151B2D158B165B00948A7D /* UIKit.framework */; };
+		E1151B30158B165B00948A7D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1151B2F158B165B00948A7D /* Foundation.framework */; };
+		E1151B32158B165B00948A7D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1151B31158B165B00948A7D /* CoreGraphics.framework */; };
+		E1151B38158B165B00948A7D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E1151B36158B165B00948A7D /* InfoPlist.strings */; };
+		E1151B3A158B165B00948A7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B39158B165B00948A7D /* main.m */; };
+		E1151B3E158B165B00948A7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B3D158B165B00948A7D /* AppDelegate.m */; };
+		E1151B41158B165B00948A7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B40158B165B00948A7D /* ViewController.m */; };
+		E1151B44158B165B00948A7D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1151B42158B165B00948A7D /* ViewController.xib */; };
+		E1151B78158B17D800948A7D /* XTFTCellFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B4F158B17D800948A7D /* XTFTCellFactory.m */; };
+		E1151B79158B17D800948A7D /* XTFTInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B52158B17D800948A7D /* XTFTInputCell.m */; };
+		E1151B7A158B17D800948A7D /* XTFTSelectStringCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B54158B17D800948A7D /* XTFTSelectStringCell.m */; };
+		E1151B7B158B17D800948A7D /* XTFTSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B56158B17D800948A7D /* XTFTSwitchCell.m */; };
+		E1151B7C158B17D800948A7D /* XTFTTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B58158B17D800948A7D /* XTFTTextFieldCell.m */; };
+		E1151B7D158B17D800948A7D /* XTFTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B5B158B17D800948A7D /* XTFTTableViewController.m */; };
+		E1151B7E158B17D800948A7D /* XTFTField.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B5E158B17D800948A7D /* XTFTField.m */; };
+		E1151B7F158B17D800948A7D /* XTFTFieldFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B60158B17D800948A7D /* XTFTFieldFactory.m */; };
+		E1151B80158B17D800948A7D /* XTFTFieldSection.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B63158B17D800948A7D /* XTFTFieldSection.m */; };
+		E1151B81158B17D800948A7D /* XTFTFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B65158B17D800948A7D /* XTFTFieldValidator.m */; };
+		E1151B82158B17D800948A7D /* XTFTInputField.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B67158B17D800948A7D /* XTFTInputField.m */; };
+		E1151B83158B17D800948A7D /* XTFTSelectTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B69158B17D800948A7D /* XTFTSelectTextField.m */; };
+		E1151B84158B17D800948A7D /* XTFTTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B6B158B17D800948A7D /* XTFTTextField.m */; };
+		E1151B85158B17D800948A7D /* UIView+XTFTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B6E158B17D800948A7D /* UIView+XTFTAdditions.m */; };
+		E1151B86158B17D800948A7D /* XTFTActionSheetWithValuePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B70158B17D800948A7D /* XTFTActionSheetWithValuePicker.m */; };
+		E1151B87158B17D800948A7D /* xtft-triangle.png in Resources */ = {isa = PBXBuildFile; fileRef = E1151B72158B17D800948A7D /* xtft-triangle.png */; };
+		E1151B88158B17D800948A7D /* xtft-triangle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E1151B73158B17D800948A7D /* xtft-triangle@2x.png */; };
+		E1151B89158B17D800948A7D /* XTFTStep.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B76158B17D800948A7D /* XTFTStep.m */; };
+		E1151B8F158B1E7400948A7D /* XTFTSelectDateTimeField.m in Sources */ = {isa = PBXBuildFile; fileRef = E1151B8E158B1E7300948A7D /* XTFTSelectDateTimeField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E107C3C8158B3101000D4534 /* XTFTSelectValueCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTSelectValueCell.h; sourceTree = "<group>"; };
+		E107C3C9158B3101000D4534 /* XTFTSelectValueCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTSelectValueCell.m; sourceTree = "<group>"; };
+		E107C3CC158B32EC000D4534 /* XTFTSelectDateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTSelectDateCell.h; sourceTree = "<group>"; };
+		E107C3CD158B32EC000D4534 /* XTFTSelectDateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTSelectDateCell.m; sourceTree = "<group>"; };
+		E107C3D0158B4EFE000D4534 /* SampleController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleController.h; sourceTree = "<group>"; };
+		E107C3D1158B4EFE000D4534 /* SampleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleController.m; sourceTree = "<group>"; };
+		E107C3D3158B5119000D4534 /* SampleFieldTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleFieldTypes.h; sourceTree = "<group>"; };
+		E107C3D4158B5119000D4534 /* SampleFieldTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleFieldTypes.m; sourceTree = "<group>"; };
+		E107C3D6158B5836000D4534 /* SampleSteps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleSteps.h; sourceTree = "<group>"; };
+		E107C3D7158B5836000D4534 /* SampleSteps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleSteps.m; sourceTree = "<group>"; };
+		E107C3D9158B635D000D4534 /* SampleRegForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleRegForm.h; sourceTree = "<group>"; };
+		E107C3DA158B635D000D4534 /* SampleRegForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleRegForm.m; sourceTree = "<group>"; };
+		E107C3DC158B692D000D4534 /* SampleValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleValidation.h; sourceTree = "<group>"; };
+		E107C3DD158B692D000D4534 /* SampleValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleValidation.m; sourceTree = "<group>"; };
+		E107C3DF158B6BF0000D4534 /* SampleCommit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCommit.h; sourceTree = "<group>"; };
+		E107C3E0158B6BF0000D4534 /* SampleCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCommit.m; sourceTree = "<group>"; };
+		E107C3E2158B70C4000D4534 /* SampleCancelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleCancelButton.h; sourceTree = "<group>"; };
+		E107C3E3158B70C5000D4534 /* SampleCancelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleCancelButton.m; sourceTree = "<group>"; };
+		E107C3E5158B72D7000D4534 /* SampleReference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleReference.h; sourceTree = "<group>"; };
+		E107C3E6158B72D7000D4534 /* SampleReference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleReference.m; sourceTree = "<group>"; };
+		E107C3E8158B8A6B000D4534 /* SampleAsyncValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleAsyncValidation.h; sourceTree = "<group>"; };
+		E107C3E9158B8A6C000D4534 /* SampleAsyncValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SampleAsyncValidation.m; sourceTree = "<group>"; };
+		E1151B29158B165B00948A7D /* XTFTSampleCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTFTSampleCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1151B2D158B165B00948A7D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E1151B2F158B165B00948A7D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E1151B31158B165B00948A7D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E1151B35158B165B00948A7D /* XTFTSampleCode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XTFTSampleCode-Info.plist"; sourceTree = "<group>"; };
+		E1151B37158B165B00948A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1151B39158B165B00948A7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1151B3B158B165B00948A7D /* XTFTSampleCode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XTFTSampleCode-Prefix.pch"; sourceTree = "<group>"; };
+		E1151B3C158B165B00948A7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E1151B3D158B165B00948A7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E1151B3F158B165B00948A7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E1151B40158B165B00948A7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E1151B43158B165B00948A7D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		E1151B4E158B17D800948A7D /* XTFTCellFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTCellFactory.h; sourceTree = "<group>"; };
+		E1151B4F158B17D800948A7D /* XTFTCellFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTCellFactory.m; sourceTree = "<group>"; };
+		E1151B50158B17D800948A7D /* XTFTCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTCells.h; sourceTree = "<group>"; };
+		E1151B51158B17D800948A7D /* XTFTInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTInputCell.h; sourceTree = "<group>"; };
+		E1151B52158B17D800948A7D /* XTFTInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTInputCell.m; sourceTree = "<group>"; };
+		E1151B53158B17D800948A7D /* XTFTSelectStringCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTSelectStringCell.h; sourceTree = "<group>"; };
+		E1151B54158B17D800948A7D /* XTFTSelectStringCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTSelectStringCell.m; sourceTree = "<group>"; };
+		E1151B55158B17D800948A7D /* XTFTSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTSwitchCell.h; sourceTree = "<group>"; };
+		E1151B56158B17D800948A7D /* XTFTSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTSwitchCell.m; sourceTree = "<group>"; };
+		E1151B57158B17D800948A7D /* XTFTTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTTextFieldCell.h; sourceTree = "<group>"; };
+		E1151B58158B17D800948A7D /* XTFTTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTTextFieldCell.m; sourceTree = "<group>"; };
+		E1151B5A158B17D800948A7D /* XTFTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTTableViewController.h; sourceTree = "<group>"; };
+		E1151B5B158B17D800948A7D /* XTFTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTTableViewController.m; sourceTree = "<group>"; };
+		E1151B5D158B17D800948A7D /* XTFTField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTField.h; sourceTree = "<group>"; };
+		E1151B5E158B17D800948A7D /* XTFTField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTField.m; sourceTree = "<group>"; };
+		E1151B5F158B17D800948A7D /* XTFTFieldFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTFieldFactory.h; sourceTree = "<group>"; };
+		E1151B60158B17D800948A7D /* XTFTFieldFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTFieldFactory.m; sourceTree = "<group>"; };
+		E1151B61158B17D800948A7D /* XTFTFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTFields.h; sourceTree = "<group>"; };
+		E1151B62158B17D800948A7D /* XTFTFieldSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTFieldSection.h; sourceTree = "<group>"; };
+		E1151B63158B17D800948A7D /* XTFTFieldSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTFieldSection.m; sourceTree = "<group>"; };
+		E1151B64158B17D800948A7D /* XTFTFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTFieldValidator.h; sourceTree = "<group>"; };
+		E1151B65158B17D800948A7D /* XTFTFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTFieldValidator.m; sourceTree = "<group>"; };
+		E1151B66158B17D800948A7D /* XTFTInputField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTInputField.h; sourceTree = "<group>"; };
+		E1151B67158B17D800948A7D /* XTFTInputField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTInputField.m; sourceTree = "<group>"; };
+		E1151B68158B17D800948A7D /* XTFTSelectTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTSelectTextField.h; sourceTree = "<group>"; };
+		E1151B69158B17D800948A7D /* XTFTSelectTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTSelectTextField.m; sourceTree = "<group>"; };
+		E1151B6A158B17D800948A7D /* XTFTTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTTextField.h; sourceTree = "<group>"; };
+		E1151B6B158B17D800948A7D /* XTFTTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTTextField.m; sourceTree = "<group>"; };
+		E1151B6D158B17D800948A7D /* UIView+XTFTAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XTFTAdditions.h"; sourceTree = "<group>"; };
+		E1151B6E158B17D800948A7D /* UIView+XTFTAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XTFTAdditions.m"; sourceTree = "<group>"; };
+		E1151B6F158B17D800948A7D /* XTFTActionSheetWithValuePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTActionSheetWithValuePicker.h; sourceTree = "<group>"; };
+		E1151B70158B17D800948A7D /* XTFTActionSheetWithValuePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTActionSheetWithValuePicker.m; sourceTree = "<group>"; };
+		E1151B72158B17D800948A7D /* xtft-triangle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xtft-triangle.png"; sourceTree = "<group>"; };
+		E1151B73158B17D800948A7D /* xtft-triangle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xtft-triangle@2x.png"; sourceTree = "<group>"; };
+		E1151B75158B17D800948A7D /* XTFTStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTStep.h; sourceTree = "<group>"; };
+		E1151B76158B17D800948A7D /* XTFTStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTStep.m; sourceTree = "<group>"; };
+		E1151B77158B17D800948A7D /* XTFT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFT.h; sourceTree = "<group>"; };
+		E1151B8D158B1E7200948A7D /* XTFTSelectDateTimeField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTFTSelectDateTimeField.h; sourceTree = "<group>"; };
+		E1151B8E158B1E7300948A7D /* XTFTSelectDateTimeField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTFTSelectDateTimeField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1151B26158B165B00948A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1151B2E158B165B00948A7D /* UIKit.framework in Frameworks */,
+				E1151B30158B165B00948A7D /* Foundation.framework in Frameworks */,
+				E1151B32158B165B00948A7D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E107C3CF158B4EE3000D4534 /* Samples */ = {
+			isa = PBXGroup;
+			children = (
+				E107C3D0158B4EFE000D4534 /* SampleController.h */,
+				E107C3D1158B4EFE000D4534 /* SampleController.m */,
+				E107C3D3158B5119000D4534 /* SampleFieldTypes.h */,
+				E107C3D4158B5119000D4534 /* SampleFieldTypes.m */,
+				E107C3D6158B5836000D4534 /* SampleSteps.h */,
+				E107C3D7158B5836000D4534 /* SampleSteps.m */,
+				E107C3D9158B635D000D4534 /* SampleRegForm.h */,
+				E107C3DA158B635D000D4534 /* SampleRegForm.m */,
+				E107C3DC158B692D000D4534 /* SampleValidation.h */,
+				E107C3DD158B692D000D4534 /* SampleValidation.m */,
+				E107C3DF158B6BF0000D4534 /* SampleCommit.h */,
+				E107C3E0158B6BF0000D4534 /* SampleCommit.m */,
+				E107C3E2158B70C4000D4534 /* SampleCancelButton.h */,
+				E107C3E3158B70C5000D4534 /* SampleCancelButton.m */,
+				E107C3E5158B72D7000D4534 /* SampleReference.h */,
+				E107C3E6158B72D7000D4534 /* SampleReference.m */,
+				E107C3E8158B8A6B000D4534 /* SampleAsyncValidation.h */,
+				E107C3E9158B8A6C000D4534 /* SampleAsyncValidation.m */,
+			);
+			name = Samples;
+			sourceTree = "<group>";
+		};
+		E1151B1E158B165B00948A7D = {
+			isa = PBXGroup;
+			children = (
+				E1151B33158B165B00948A7D /* XTFTSampleCode */,
+				E1151B2C158B165B00948A7D /* Frameworks */,
+				E1151B2A158B165B00948A7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1151B2A158B165B00948A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B29158B165B00948A7D /* XTFTSampleCode.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1151B2C158B165B00948A7D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B2D158B165B00948A7D /* UIKit.framework */,
+				E1151B2F158B165B00948A7D /* Foundation.framework */,
+				E1151B31158B165B00948A7D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E1151B33158B165B00948A7D /* XTFTSampleCode */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B4C158B17D800948A7D /* XTFT */,
+				E107C3CF158B4EE3000D4534 /* Samples */,
+				E1151B3C158B165B00948A7D /* AppDelegate.h */,
+				E1151B3D158B165B00948A7D /* AppDelegate.m */,
+				E1151B3F158B165B00948A7D /* ViewController.h */,
+				E1151B40158B165B00948A7D /* ViewController.m */,
+				E1151B42158B165B00948A7D /* ViewController.xib */,
+				E1151B34158B165B00948A7D /* Supporting Files */,
+			);
+			path = XTFTSampleCode;
+			sourceTree = "<group>";
+		};
+		E1151B34158B165B00948A7D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B35158B165B00948A7D /* XTFTSampleCode-Info.plist */,
+				E1151B36158B165B00948A7D /* InfoPlist.strings */,
+				E1151B39158B165B00948A7D /* main.m */,
+				E1151B3B158B165B00948A7D /* XTFTSampleCode-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E1151B4C158B17D800948A7D /* XTFT */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B4D158B17D800948A7D /* Cells */,
+				E1151B59158B17D800948A7D /* Controllers */,
+				E1151B5C158B17D800948A7D /* Fields */,
+				E1151B6C158B17D800948A7D /* Helpers */,
+				E1151B71158B17D800948A7D /* Resources */,
+				E1151B74158B17D800948A7D /* Steps */,
+				E1151B77158B17D800948A7D /* XTFT.h */,
+			);
+			path = XTFT;
+			sourceTree = "<group>";
+		};
+		E1151B4D158B17D800948A7D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B50158B17D800948A7D /* XTFTCells.h */,
+				E1151B4E158B17D800948A7D /* XTFTCellFactory.h */,
+				E1151B4F158B17D800948A7D /* XTFTCellFactory.m */,
+				E1151B51158B17D800948A7D /* XTFTInputCell.h */,
+				E1151B52158B17D800948A7D /* XTFTInputCell.m */,
+				E1151B53158B17D800948A7D /* XTFTSelectStringCell.h */,
+				E1151B54158B17D800948A7D /* XTFTSelectStringCell.m */,
+				E1151B55158B17D800948A7D /* XTFTSwitchCell.h */,
+				E1151B56158B17D800948A7D /* XTFTSwitchCell.m */,
+				E1151B57158B17D800948A7D /* XTFTTextFieldCell.h */,
+				E1151B58158B17D800948A7D /* XTFTTextFieldCell.m */,
+				E107C3C8158B3101000D4534 /* XTFTSelectValueCell.h */,
+				E107C3C9158B3101000D4534 /* XTFTSelectValueCell.m */,
+				E107C3CC158B32EC000D4534 /* XTFTSelectDateCell.h */,
+				E107C3CD158B32EC000D4534 /* XTFTSelectDateCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E1151B59158B17D800948A7D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B5A158B17D800948A7D /* XTFTTableViewController.h */,
+				E1151B5B158B17D800948A7D /* XTFTTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E1151B5C158B17D800948A7D /* Fields */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B61158B17D800948A7D /* XTFTFields.h */,
+				E1151B5F158B17D800948A7D /* XTFTFieldFactory.h */,
+				E1151B60158B17D800948A7D /* XTFTFieldFactory.m */,
+				E1151B5D158B17D800948A7D /* XTFTField.h */,
+				E1151B5E158B17D800948A7D /* XTFTField.m */,
+				E1151B62158B17D800948A7D /* XTFTFieldSection.h */,
+				E1151B63158B17D800948A7D /* XTFTFieldSection.m */,
+				E1151B64158B17D800948A7D /* XTFTFieldValidator.h */,
+				E1151B65158B17D800948A7D /* XTFTFieldValidator.m */,
+				E1151B66158B17D800948A7D /* XTFTInputField.h */,
+				E1151B67158B17D800948A7D /* XTFTInputField.m */,
+				E1151B68158B17D800948A7D /* XTFTSelectTextField.h */,
+				E1151B69158B17D800948A7D /* XTFTSelectTextField.m */,
+				E1151B6A158B17D800948A7D /* XTFTTextField.h */,
+				E1151B6B158B17D800948A7D /* XTFTTextField.m */,
+				E1151B8D158B1E7200948A7D /* XTFTSelectDateTimeField.h */,
+				E1151B8E158B1E7300948A7D /* XTFTSelectDateTimeField.m */,
+			);
+			path = Fields;
+			sourceTree = "<group>";
+		};
+		E1151B6C158B17D800948A7D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B6D158B17D800948A7D /* UIView+XTFTAdditions.h */,
+				E1151B6E158B17D800948A7D /* UIView+XTFTAdditions.m */,
+				E1151B6F158B17D800948A7D /* XTFTActionSheetWithValuePicker.h */,
+				E1151B70158B17D800948A7D /* XTFTActionSheetWithValuePicker.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E1151B71158B17D800948A7D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B72158B17D800948A7D /* xtft-triangle.png */,
+				E1151B73158B17D800948A7D /* xtft-triangle@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E1151B74158B17D800948A7D /* Steps */ = {
+			isa = PBXGroup;
+			children = (
+				E1151B75158B17D800948A7D /* XTFTStep.h */,
+				E1151B76158B17D800948A7D /* XTFTStep.m */,
+			);
+			path = Steps;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1151B28158B165B00948A7D /* XTFTSampleCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1151B47158B165B00948A7D /* Build configuration list for PBXNativeTarget "XTFTSampleCode" */;
+			buildPhases = (
+				E1151B25158B165B00948A7D /* Sources */,
+				E1151B26158B165B00948A7D /* Frameworks */,
+				E1151B27158B165B00948A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTFTSampleCode;
+			productName = XTFTSampleCode;
+			productReference = E1151B29158B165B00948A7D /* XTFTSampleCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1151B20158B165B00948A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E1151B23158B165B00948A7D /* Build configuration list for PBXProject "XTFTSampleCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E1151B1E158B165B00948A7D;
+			productRefGroup = E1151B2A158B165B00948A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1151B28158B165B00948A7D /* XTFTSampleCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1151B27158B165B00948A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1151B38158B165B00948A7D /* InfoPlist.strings in Resources */,
+				E1151B44158B165B00948A7D /* ViewController.xib in Resources */,
+				E1151B87158B17D800948A7D /* xtft-triangle.png in Resources */,
+				E1151B88158B17D800948A7D /* xtft-triangle@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1151B25158B165B00948A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1151B3A158B165B00948A7D /* main.m in Sources */,
+				E1151B3E158B165B00948A7D /* AppDelegate.m in Sources */,
+				E1151B41158B165B00948A7D /* ViewController.m in Sources */,
+				E1151B78158B17D800948A7D /* XTFTCellFactory.m in Sources */,
+				E1151B79158B17D800948A7D /* XTFTInputCell.m in Sources */,
+				E1151B7A158B17D800948A7D /* XTFTSelectStringCell.m in Sources */,
+				E1151B7B158B17D800948A7D /* XTFTSwitchCell.m in Sources */,
+				E1151B7C158B17D800948A7D /* XTFTTextFieldCell.m in Sources */,
+				E1151B7D158B17D800948A7D /* XTFTTableViewController.m in Sources */,
+				E1151B7E158B17D800948A7D /* XTFTField.m in Sources */,
+				E1151B7F158B17D800948A7D /* XTFTFieldFactory.m in Sources */,
+				E1151B80158B17D800948A7D /* XTFTFieldSection.m in Sources */,
+				E1151B81158B17D800948A7D /* XTFTFieldValidator.m in Sources */,
+				E1151B82158B17D800948A7D /* XTFTInputField.m in Sources */,
+				E1151B83158B17D800948A7D /* XTFTSelectTextField.m in Sources */,
+				E1151B84158B17D800948A7D /* XTFTTextField.m in Sources */,
+				E1151B85158B17D800948A7D /* UIView+XTFTAdditions.m in Sources */,
+				E1151B86158B17D800948A7D /* XTFTActionSheetWithValuePicker.m in Sources */,
+				E1151B89158B17D800948A7D /* XTFTStep.m in Sources */,
+				E1151B8F158B1E7400948A7D /* XTFTSelectDateTimeField.m in Sources */,
+				E107C3CA158B3101000D4534 /* XTFTSelectValueCell.m in Sources */,
+				E107C3CE158B32EC000D4534 /* XTFTSelectDateCell.m in Sources */,
+				E107C3D2158B4EFE000D4534 /* SampleController.m in Sources */,
+				E107C3D5158B5119000D4534 /* SampleFieldTypes.m in Sources */,
+				E107C3D8158B5836000D4534 /* SampleSteps.m in Sources */,
+				E107C3DB158B635D000D4534 /* SampleRegForm.m in Sources */,
+				E107C3DE158B692D000D4534 /* SampleValidation.m in Sources */,
+				E107C3E1158B6BF0000D4534 /* SampleCommit.m in Sources */,
+				E107C3E4158B70C5000D4534 /* SampleCancelButton.m in Sources */,
+				E107C3E7158B72D7000D4534 /* SampleReference.m in Sources */,
+				E107C3EA158B8A6C000D4534 /* SampleAsyncValidation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E1151B36158B165B00948A7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1151B37158B165B00948A7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E1151B42158B165B00948A7D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1151B43158B165B00948A7D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1151B45158B165B00948A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E1151B46158B165B00948A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1151B48158B165B00948A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XTFTSampleCode/XTFTSampleCode-Prefix.pch";
+				INFOPLIST_FILE = "XTFTSampleCode/XTFTSampleCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E1151B49158B165B00948A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "XTFTSampleCode/XTFTSampleCode-Prefix.pch";
+				INFOPLIST_FILE = "XTFTSampleCode/XTFTSampleCode-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1151B23158B165B00948A7D /* Build configuration list for PBXProject "XTFTSampleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1151B45158B165B00948A7D /* Debug */,
+				E1151B46158B165B00948A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1151B47158B165B00948A7D /* Build configuration list for PBXNativeTarget "XTFTSampleCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1151B48158B165B00948A7D /* Debug */,
+				E1151B49158B165B00948A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1151B20158B165B00948A7D /* Project object */;
+}
